@@ -1,0 +1,42 @@
+html {
+  box-sizing: border-box;
+  font-family: "Open Sans";
+  margin: 0;
+  padding: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h2 {
+  font-size: 4rem;
+  background: rgba(0, 0, 0, .5);
+}
+
+p {
+  font-size: 2rem;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+.banner {
+  margin: 0;
+  padding: .3rem 1rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  max-width: 50em;
+  overflow: hidden;
+}
+
+header {
+  position: relative;
+  max-height: 500px;
+}
+
+
+
