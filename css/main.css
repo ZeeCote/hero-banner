@@ -29,6 +29,8 @@ h2 {
 p {
   font-size: 2rem;
   font-style: italic;
+  margin-top: .5em;
+  line-height: 1.5;
 }
 
 div img .img-flex {
@@ -43,7 +45,7 @@ div img .img-flex {
 .banner {
   margin: 0;
   padding: .3rem 1rem;
-  transform: translate(10px, 0);
+  transform: translate(8px, 0);
   position: absolute;
 
   /* left: 100px;
@@ -51,10 +53,17 @@ div img .img-flex {
 
   max-width: 50em;
   overflow: hidden;
+  justify-content: unset;
 }
 
 header {
   position: relative;
 }
 
+@media (min-width: 87.5em) {
 
+  .banner {
+    transform: translate(300px, 180px);
+  }
+
+}
